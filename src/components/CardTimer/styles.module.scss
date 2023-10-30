@@ -1,0 +1,17 @@
+@import "../../styles/base.scss";
+
+.card {
+  background-color: $dark-saturated-blue;
+  color: $soft-red;
+  padding: 1.5rem 1rem;
+  flex-basis: calc(25% - 1rem);
+  flex-grow: 1;
+  font-size: 48px;
+  font-weight: $weights;
+
+  @media screen and (max-width: $medium) {
+    font-size: 36px;
+    padding: 1rem 0.5rem;
+    flex-basis: calc(25% - 0.5rem);
+  }
+}

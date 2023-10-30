@@ -1,0 +1,17 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Text');
+
+// Body Copy
+$font-size: 14px;
+
+// Font
+$family: 'Red Hat Text';
+$weights: 700;
+
+// Media Screen
+$medium: 576px;
+
+// Mixins
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
